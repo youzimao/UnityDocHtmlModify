@@ -1,0 +1,14 @@
+H:\GitProjects\UnityDocModify\UnityDocModify\bin\Debug\UnityDocModify.exe.config
+H:\GitProjects\UnityDocModify\UnityDocModify\bin\Debug\UnityDocModify.exe
+H:\GitProjects\UnityDocModify\UnityDocModify\bin\Debug\UnityDocModify.pdb
+H:\GitProjects\UnityDocModify\UnityDocModify\obj\Debug\UnityDocModify.csprojAssemblyReference.cache
+H:\GitProjects\UnityDocModify\UnityDocModify\obj\Debug\MainWindow.g.cs
+H:\GitProjects\UnityDocModify\UnityDocModify\obj\Debug\App.g.cs
+H:\GitProjects\UnityDocModify\UnityDocModify\obj\Debug\UnityDocModify_MarkupCompile.cache
+H:\GitProjects\UnityDocModify\UnityDocModify\obj\Debug\UnityDocModify_MarkupCompile.lref
+H:\GitProjects\UnityDocModify\UnityDocModify\obj\Debug\MainWindow.baml
+H:\GitProjects\UnityDocModify\UnityDocModify\obj\Debug\UnityDocModify.g.resources
+H:\GitProjects\UnityDocModify\UnityDocModify\obj\Debug\UnityDocModify.Properties.Resources.resources
+H:\GitProjects\UnityDocModify\UnityDocModify\obj\Debug\UnityDocModify.csproj.GenerateResource.cache
+H:\GitProjects\UnityDocModify\UnityDocModify\obj\Debug\UnityDocModify.exe
+H:\GitProjects\UnityDocModify\UnityDocModify\obj\Debug\UnityDocModify.pdb

@@ -1,0 +1,50 @@
+﻿<Window x:Class="UnityDocModify.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:UnityDocModify"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="300" Width="800" WindowStartupLocation="CenterScreen">
+    <Grid >
+        <Grid.RowDefinitions>
+            <RowDefinition Height="50" />
+            <RowDefinition Height="50"/>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition Height="50"/>
+        </Grid.RowDefinitions>
+        <Grid Grid.Row="0">
+
+            <StackPanel Orientation="Horizontal" VerticalAlignment="Center">
+                <TextBlock  >选择文件夹</TextBlock>
+                <Button Name="SelectFolder" Margin="10 0 0 0" Click="SelectFolder_Click">打开</Button>
+                <TextBox  Name="Address" Margin="20 0 0 0" Width="500" ></TextBox>
+                <Button Name="Start" Width="50" Margin="20 0 0 0" Click="Start_Click" >开始</Button>
+                <!--<Button Name="Save" Width="50" Margin="20 0 0 0" Click="Save_Click" >保存</Button>-->
+            </StackPanel>
+
+        </Grid>
+        <Grid Grid.Row="1">
+            <StackPanel Orientation="Horizontal" >
+                <TextBlock  TextAlignment="Center" Margin="10 0 0 0" Padding="0 5 0 0" Width="90"  Height="30">被替换的字符</TextBlock>
+                <TextBox Name="Str"  VerticalContentAlignment="Center" Margin="10 0 0 0"  Height="25" Width="200">https://fonts.googleapis.com</TextBox>
+                <TextBlock  TextAlignment="Center" Margin="50 0 0 0" Padding="0 5 0 0" Width="90"  Height="30">需要的字符</TextBlock>
+                <TextBox Name="NeedStr" VerticalContentAlignment="Center" Margin="10 0 0 0"  Height="25" Width="200"></TextBox>
+            </StackPanel>
+        </Grid>
+        <Grid Grid.Row="2">
+            <StackPanel>
+                <Label Name="Info" ></Label>
+            </StackPanel>
+        </Grid>
+        <Grid Grid.Row="3">
+
+            <StackPanel Height="80" Orientation="Horizontal">
+                <Label Content="进度：" HorizontalAlignment="Center" VerticalAlignment="Center"></Label>
+                <ProgressBar Minimum="0" Maximum="100"  Name="ProBar" Height="20" Width="600"  ></ProgressBar>
+            </StackPanel>
+        </Grid>
+       
+    </Grid>
+</Window>
