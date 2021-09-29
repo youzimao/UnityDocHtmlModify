@@ -1,0 +1,3 @@
+# UnityDocHtmlModify
+unity离线文档打开速度慢，原因是html文件中的header中有google域名下的地址，html打开时需要等待请求响应，而国内是屏蔽了google域名的。
+解决办法是删除或者修改header中的google的地址
